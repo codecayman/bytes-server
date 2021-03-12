@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_text_texts",
+  "info": {
+    "name": "Text",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "value": {
+      "type": "text",
+      "minLength": 1,
+      "required": true
+    }
+  }
+}
